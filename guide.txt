@@ -1,0 +1,7 @@
+the main work over here is done by todo controller present in main.js file .
+1. i have taken an aray to put all ingredients
+2.then I make a new array of objects now each object has 3 things id, name of ingredient, buy(which means have we bought the item or not )
+3.this array of object would look like {id:1,item:chciken,buy:false}
+why us id important because i need it to change the value of buy when i click on the item the value of buy should change so i have made a functino toggle() for this
+and the other major function runs when i seperate  the list (when i need different lists for which items have been bought and which not ) the function is named filter what it does is it
+it makes two arrays bought and nbought and we push items in them depending upon the buy property from the object if buy is true we push it in bought array 
